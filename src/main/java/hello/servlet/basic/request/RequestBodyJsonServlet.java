@@ -14,7 +14,7 @@ import org.springframework.util.StreamUtils;
 
 @WebServlet(name = "requestBodyJsonServlet", urlPatterns = "/request-body-json")
 public class RequestBodyJsonServlet extends HttpServlet {
-
+    //JSON 결과를 파싱해서 사용할 수 있는 자바 객체로 변환하기 위한 라이브러리
     private ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
