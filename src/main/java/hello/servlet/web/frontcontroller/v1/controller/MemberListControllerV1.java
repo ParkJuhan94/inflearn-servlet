@@ -5,10 +5,10 @@ import hello.servlet.domain.member.MemberRepository;
 import hello.servlet.web.frontcontroller.v1.ControllerV1;
 import java.io.IOException;
 import java.util.List;
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 public class MemberListControllerV1 implements ControllerV1 {
 
